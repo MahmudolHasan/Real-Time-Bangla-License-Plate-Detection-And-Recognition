@@ -1,2 +1,2 @@
-# Bangladeshi-License-Plate-Detection-7-Recognition
-Bangladeshi license Plate detection and recognition using yolov5 and easyocr
+# Real-Time-Bangladeshi-License-Plate-Detection-And-Recognition
+This project aims to develop a system which can detect bangladeshi license plate (Bangla characters) and recognizes the characters in the license plate. For the detection  we used the yolov5 model. And we also utilized the easyocr to extract the character from the license plate.The Dataset was initially collected from a kaggle account to train the model. Later we created our own dataset and merged the two datasets.The dataset pre-processing and augmentation was done in roboflow.The dataset contains about 2.3K pictures of Bnagla License Plate.As the project was implemented in Raspberry Pi 4B, we choose the yolov5s for better and faster performance.
