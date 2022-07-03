@@ -30,11 +30,13 @@
 
 This project aims to develop a system which can detect **Bangladeshi license plate (Bangla characters)** and recognizes the characters in the license plate.The licenese plate information will be saved in a xls file along with some other informations such as location,time,cropped picture of the license plate and an unique id for each deteced license plate. 
 
-##Built With
+## Built With
 
--***[Python](https://www.python.org/)***
--***[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)***
--***[Raspberry Pi Camerav2](https://www.raspberrypi.com/products/camera-module-v2/)***
+- ***[Python](https://www.python.org/)***
+
+- ***[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)***
+
+- ***[Raspberry Pi Camerav2](https://www.raspberrypi.com/products/camera-module-v2/)***
 
 
 
