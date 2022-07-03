@@ -34,9 +34,22 @@ This project aims to develop a system which can detect **Bangladeshi license pla
 
 - ***[Python](https://www.python.org/)***
 
-- ***[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)***(optional)
+- ***[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)*** (optional)
 
-- ***[Raspberry Pi Camerav2](https://www.raspberrypi.com/products/camera-module-v2/)***(optional)
+- ***[Raspberry Pi Camerav2](https://www.raspberrypi.com/products/camera-module-v2/)*** (optional)
+
+## Getting Started 
+
+Before getting started, we need to have some data,software and access to some websites which is necessary for this project.
+
+## Prerequisites
+
+1. Bangladeshi Bangla License Plate Dataset
+2. ***[Anconda](https://anaconda.org/anaconda/python)*** or ***[Pycharm](https://www.jetbrains.com/pycharm/download/)*** for model training 
+3. Alernatively, we could also use Google Colab or similiar kind of cloud platform for model training 
+4. A wwbcam if raspberry pi with its  cmaera is not used 
+
+## Installation
 
 
 
