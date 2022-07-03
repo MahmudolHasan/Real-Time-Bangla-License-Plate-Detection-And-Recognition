@@ -26,7 +26,6 @@
 </details>
 
 ## About The Project
-
 -----
 
 This project aims to develop a system which can detect **Bangladeshi license plate (Bangla characters)** and recognizes the characters in the license plate.The licenese plate information will be saved in xls file along with some other informations such as location,time,cropped picture of the license plate and an unique id for each deteced license plate. 
