@@ -50,10 +50,11 @@ Before getting started, we need to have some data,software and access to some we
 
 1. Bangladeshi Bangla License Plate Dataset
 2. ***[Anconda](https://anaconda.org/anaconda/python)*** or ***[Pycharm](https://www.jetbrains.com/pycharm/download/)*** for model training 
-3. Alernatively, we could also use Google Colab or similiar kind of cloud platform for model training 
-4. A wwbcam if raspberry pi with its  cmaera is not used 
+3. Alernatively, we could also use ***[Google Colab](https://colab.research.google.com/)*** or similiar kind of cloud platform for model training 
+4. A wwbcam if raspberry pi with its cmaera is not used 
 
 ## Installation
+
 
 
 
