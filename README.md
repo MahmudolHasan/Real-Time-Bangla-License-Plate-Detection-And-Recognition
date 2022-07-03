@@ -46,15 +46,16 @@ This project aims to develop a system which can detect **Bangladeshi license pla
 
 Before getting started, we need to have some data,software and access to some websites which is necessary for this project.
 
-## Prerequisites
+### Prerequisites
 
 1. Bangladeshi Bangla License Plate Dataset
 2. ***[Anconda](https://anaconda.org/anaconda/python)*** or ***[Pycharm](https://www.jetbrains.com/pycharm/download/)*** for model training 
 3. Alernatively, we could also use ***[Google Colab](https://colab.research.google.com/)*** or similiar kind of cloud platform for model training 
 4. A wwbcam if raspberry pi with its cmaera is not used 
 
-## Installation
+### Software Installation
 
+To train the model and run the whole project we will use Anaconda.
 
 
 
