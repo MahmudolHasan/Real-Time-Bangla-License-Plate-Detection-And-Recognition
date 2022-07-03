@@ -34,6 +34,10 @@ This project aims to develop a system which can detect **Bangladeshi license pla
 
 - ***[Python](https://www.python.org/)***
 
+- ***[Yolov5](https://github.com/ultralytics/yolov5)***
+
+- ***[EasyOCR](https://github.com/JaidedAI/EasyOCR)***
+
 - ***[Raspberry Pi 4B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)*** (optional)
 
 - ***[Raspberry Pi Camerav2](https://www.raspberrypi.com/products/camera-module-v2/)*** (optional)
