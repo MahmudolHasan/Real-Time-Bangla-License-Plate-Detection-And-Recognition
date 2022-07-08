@@ -75,7 +75,7 @@ cd <folder name>
 ```
 git clone https://github.com/MahmudolHasan/Real-Time-Bangladeshi-License-Plate-Detection-And-Recognition
 ```
-+ We have created  virtual environment and clone the repository.Now we need to prepare our data to train the model.We have already created a dataset of Bangladeshi license plate and it can be downloded from this link : [Bangla License Plate](https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate "https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate")
++ We have created  virtual environment and clone the repository.Now we need to prepare our data to train the model.We have already created a dataset of Bangladeshi license plate and it can be downloded from this link: [Bangla License Plate](https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate "https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate").The dataset contains 295 pictures with annotations in total.And the are splitted into three parts;train(70%), valid(20%) and test(10%).Now to preapre the dataset for training we will use [roboflow](https://app.roboflow.com/).They has a proper guidline on how to [prepare](https://blog.roboflow.com/getting-started-with-roboflow/) a dataset.
 
 
 
