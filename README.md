@@ -65,12 +65,16 @@ conda create -n {virtual environment name}
 conda activate {virtual environment name}
 
 ```
-+ Now make a directory in your preferable drive and create a folder where we will store all the necessery files.So,we change the directory in anaconda command prompt and create a folder .
++ Now make a directory in your preferable drive and create a folder where we will store all the necessery files.So,if needed, we change the directories in anaconda command prompt and create a folder and change directories to that folder.
 ```
 mkdir <folder name>
+cd <folder name>
 
 ```
-
++ Now we clone this repository to this folder by issuing:
+```
+git clone https://github.com/MahmudolHasan/Real-Time-Bangladeshi-License-Plate-Detection-And-Recognition
+```                           
 
 
 
