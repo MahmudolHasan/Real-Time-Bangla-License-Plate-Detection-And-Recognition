@@ -56,9 +56,7 @@ Before getting started, we need to have some data,software and access to some we
 ### Software Installation
 
 To train the model and run the whole project we will use [Anconda](https://anaconda.org/anaconda/python).First,we need to create a virtual environment in anaconda.To create a virtual environment,open anaconda promt from start menu and enter following command 
-```
-conda create -n {virtual environment name}
-
+```conda create -n {virtual environment name}
 ```
 
 
