@@ -55,14 +55,19 @@ Before getting started, we need to have some data,software and access to some we
 
 ### Steps
 
-1. To train the model and run the whole project we will use [Anconda](https://anaconda.org/anaconda/python).First,we need to create a virtual environment in anaconda.To create a virtual environment,open anaconda promt from start menu and enter following command 
++ To train the model and run the whole project we will use [Anconda](https://anaconda.org/anaconda/python).First,we need to create a virtual environment in anaconda.To create a virtual environment,open anaconda promt from start menu and enter following command 
 ```
 conda create -n {virtual environment name}
 
 ```
-Activate the virtual environment by issuing:
+ Activate the virtual environment by issuing:
 ```
 conda activate {virtual environment name}
+
+```
++ Now make a directory in your preferable drive and create a folder where we will store all the necessery files.So,we change the directory in anaconda command prompt and create a folder .
+```
+mkdir <folder name>
 
 ```
 
