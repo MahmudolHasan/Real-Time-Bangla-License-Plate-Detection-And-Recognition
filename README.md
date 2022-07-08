@@ -51,13 +51,21 @@ Before getting started, we need to have some data,software and access to some we
 1. Bangladeshi Bangla License Plate Dataset
 2. [Anconda](https://anaconda.org/anaconda/python) or [Pycharm](https://www.jetbrains.com/pycharm/download/) for model training 
 3. Alernatively, we could also use [Google Colab](https://colab.research.google.com/) or similiar kind of cloud platform for model training 
-4. A wwbcam if raspberry pi with its cmaera is not used 
+4. A webcam if raspberry pi with its cmaera is not used 
 
-### Software Installation
+### Steps
 
-To train the model and run the whole project we will use [Anconda](https://anaconda.org/anaconda/python).First,we need to create a virtual environment in anaconda.To create a virtual environment,open anaconda promt from start menu and enter following command 
-```conda create -n {virtual environment name}
+1. To train the model and run the whole project we will use [Anconda](https://anaconda.org/anaconda/python).First,we need to create a virtual environment in anaconda.To create a virtual environment,open anaconda promt from start menu and enter following command 
 ```
+conda create -n {virtual environment name}
+
+```
+Activate the virtual environment by issuing:
+```
+conda activate {virtual environment name}
+
+```
+
 
 
 
