@@ -74,7 +74,8 @@ cd <folder name>
 + Now we clone this repository to this folder by issuing:
 ```
 git clone https://github.com/MahmudolHasan/Real-Time-Bangladeshi-License-Plate-Detection-And-Recognition
-```                           
+```
++ We have created  virtual environment and clone the repository.Now we need to prepare our data to train the model.We have already created a dataset of Bangladeshi license plate and it can be downloded from this link : [Bangla License Plate](https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate "https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate")
 
 
 
