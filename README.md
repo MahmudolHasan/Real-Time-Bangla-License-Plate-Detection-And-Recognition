@@ -22,13 +22,17 @@
       </ul>
     </li>
     <li><a href="#usage">Result</a></li>
-    <li><a href="#contact">Contact</a></li>
+    
   </ol>
 </details>
 
 ## About The Project
 
 This project aims to develop a system which can detect **Bangladeshi license plate (Bangla characters)** and recognizes the characters in the license plate.The licenese plate information will be saved in a xls file along with some other informations such as location,time,cropped picture of the license plate and an unique id for each deteced license plate. 
+
+***Cite the dataset:
+
+M. H. Tushar, M. T. Bhuiyan, M. S. Hossain, A. Tabassum and R. Khan, “Real Time Bangla License Plate Recognition with Deep Learning Techniques,” International Conference on Artificial Intelligence in Engineering and Technology (IICAIET), pp. 1-6, 2022.***
 
 ## Built With
 
