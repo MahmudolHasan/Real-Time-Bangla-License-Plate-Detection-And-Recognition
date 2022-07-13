@@ -103,4 +103,4 @@ Now run following command to real time detect license plate:
 python detect.py --weights '/content/best (3).pt' --img 320 --conf 0.5 --source 0 --save-crop 
 ```
 Note: use '--save-crop' to save the license plate information in an xls file.
-<img width="800" src='image/result.png '>
+<img width="800" src='images/result.png '>
