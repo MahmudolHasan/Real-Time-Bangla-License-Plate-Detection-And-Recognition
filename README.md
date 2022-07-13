@@ -106,6 +106,7 @@ Note: use '--save-crop' to save the license plate information in an xls file.
 
 ## Result
 #### Tested Cars pictures 
+
 <div class="row">
   <div class="column">
     <img src="images/c1.png" alt="Vehicle 1" style="width:100%">
@@ -123,6 +124,7 @@ Note: use '--save-crop' to save the license plate information in an xls file.
     <img src="images/c5.png" alt="Vehicle 5" style="width:100%">
   </div>
 </div>
+
 #### The Output Result
 
 <img width="800" src='images/result.png '>
