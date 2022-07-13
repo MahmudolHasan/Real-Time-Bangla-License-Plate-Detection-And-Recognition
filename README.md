@@ -21,7 +21,7 @@
         <li><a href="#installation">Steps</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Result</a></li>
+    <li><a href="#Result">Result</a></li>
     
   </ol>
 </details>
