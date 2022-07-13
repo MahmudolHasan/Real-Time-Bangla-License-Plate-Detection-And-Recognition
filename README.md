@@ -105,7 +105,7 @@ pip install uuid
 ```
 Now run following command to real time detect license plate:
 ```
-python detect.py --weights '/content/best (3).pt' --img 320 --conf 0.5 --source 0 --save-crop 
+python detect.py --weights yolov5s.pt --img 320 --conf 0.5 --source 0 --save-crop 
 ```
 Note: use '--save-crop' to save the license plate information in an xls file.
 
