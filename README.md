@@ -55,7 +55,7 @@ Before getting started, we need to have some data,software and access to some we
 
 ### Steps
 
-+ To train the model and run the whole project we will use [Anconda](https://anaconda.org/anaconda/python).First,we need to create a virtual environment in anaconda.To create a virtual environment,open anaconda promt from start menu and enter following command 
++ To train the model we will use google colab and run the whole project we will use anconda or terminal in case of raspberry pi.First,we need to create a virtual environment in anaconda.To create a virtual environment,open anaconda promt from start menu and enter following command 
 ```
 conda create -n {virtual environment name}
 ```
@@ -105,5 +105,24 @@ python detect.py --weights '/content/best (3).pt' --img 320 --conf 0.5 --source 
 Note: use '--save-crop' to save the license plate information in an xls file.
 
 ## Result
+#### Tested Cars pictures 
+<div class="row">
+  <div class="column">
+    <img src="c1.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="c2.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="c3.png" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="c4.png" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="c5.png" alt="Mountains" style="width:100%">
+  </div>
+</div>
+#### The Output Result
 
 <img width="800" src='images/result.png '>
