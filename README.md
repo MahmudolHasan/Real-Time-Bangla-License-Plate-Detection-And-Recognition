@@ -121,8 +121,16 @@ row::after {
   display: table;
 }
 </style>
-<div class="row">
-  <div class="column">
+<div class="row" style ="after {
+  content:;
+  clear: both;
+  display: table;
+}">
+  <div class="column" style="{
+  float: left;
+  width: 20%;
+  padding: 5px;
+}">
     <img src="images/c1.jpg" alt="Vehicle 1" style="width:100%">
   </div>
   <div class="column">
