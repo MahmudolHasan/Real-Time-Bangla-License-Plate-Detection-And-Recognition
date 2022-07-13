@@ -22,7 +22,7 @@
       </ul>
     </li>
     <li><a href="#Result">Result</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#Contact">Contact</a></li>
     
   </ol>
 </details>
@@ -124,5 +124,5 @@ Note: use '--save-crop' to save the license plate information in an xls file.
 
 <img width="800" src='images/result.png '>
 
-## Contact 
+## Contact
 <a href="https://twitter.com/hasan_tusher" title="Follow me on twitter" target="blank" ><img src="https://img.icons8.com/fluency/48/000000/twitter.png" alt="twitter" style="width:42px;height:42px;"></a>                            <a href="mailto:tusharhasan182@gmail.com" title="Send Email"><img src="https://img.icons8.com/doodle/48/000000/new-post.png" alt="Send Email" style="width:42px;height:42px;"></a>
