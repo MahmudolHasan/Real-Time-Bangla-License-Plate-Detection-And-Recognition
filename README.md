@@ -22,6 +22,7 @@
       </ul>
     </li>
     <li><a href="#Result">Result</a></li>
+    <li><a href="#contact">Contact</a></li>
     
   </ol>
 </details>
@@ -122,3 +123,6 @@ Note: use '--save-crop' to save the license plate information in an xls file.
 #### The Output Result
 
 <img width="800" src='images/result.png '>
+
+## Contact 
+Tushar Hasan - [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40bukotsunikki)](https://twitter.com/hasan_tusher) - [Email](mailto:tusharhasan182@gmail.com)
