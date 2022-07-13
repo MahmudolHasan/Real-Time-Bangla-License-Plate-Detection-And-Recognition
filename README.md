@@ -125,4 +125,4 @@ Note: use '--save-crop' to save the license plate information in an xls file.
 <img width="800" src='images/result.png '>
 
 ## Conact 
-[![https://twitter.com/hasan_tusher](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40bukotsunikki)](https://twitter.com/hasan_tusher) - [Email](mailto:tusharhasan182@gmail.com)
+<a href="https://twitter.com/hasan_tusher"><img src="https://img.icons8.com/fluency/48/000000/twitter.png" alt="HTML tutorial" style="width:42px;height:42px;"></a> - [Email](mailto:tusharhasan182@gmail.com)
