@@ -108,11 +108,11 @@ Note: use '--save-crop' to save the license plate information in an xls file.
 #### Tested Cars pictures 
 
 <p float="left">
-  <iimg src="images/c1.jpg" alt="Vehicle 1" width="100" />
+  <img src="images/c1.jpg" alt="Vehicle 1" width="100" />
   <img src="images/c2.jpg" alt="Vehicle 2" width="100" /> 
   <img src="images/c3.jpg" alt="Vehicle 3" width="100" />
-   <img src="images/c4.jpg" alt="Vehicle 4" width="100%"/>
-   <img src="images/c5.jpg" alt="Vehicle 5" width="100%">
+  <img src="images/c4.jpg" alt="Vehicle 4" width="100"/>
+  <img src="images/c5.jpg" alt="Vehicle 5" width="100">
 </p>
     
 #### The Output Result
