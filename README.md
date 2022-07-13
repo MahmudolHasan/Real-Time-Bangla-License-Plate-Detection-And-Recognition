@@ -63,29 +63,44 @@ conda create -n {virtual environment name}
 ```
 conda activate {virtual environment name}
 ```
++ We have created  virtual environment.Now we need to prepare our data to train the model.We have already created a dataset of Bangladeshi license plate and it can be downloded from this link: [Bangla License Plate](https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate "https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate").In all, there are 295 images with annotations in the dataset.And they are splitted into three parts;train(70%), valid(20%) and test(10%).Now to preapre the dataset for training we will use [roboflow](https://app.roboflow.com/).They has a guidline on how to [prepare](https://blog.roboflow.com/getting-started-with-roboflow/) a dataset for taining. We will use colab to train our yolov5 model.We could also use anaconda or pycharm to train the model in local machine.
+
++  We trained the model in colab and downloaded the weights from colab.Two trained weights yolov5s & yolov5n will be included in this repository.
+
 + Now make a directory in your preferable drive and create a folder where we will store all the necessery files.So,if needed, we change the directories in anaconda command prompt and create a folder and change directories to that folder.
 ```
 mkdir <folder name>
 cd <folder name>
 ```
-+ Now we clone this repository to this folder by issuing:
++ Now we clone yolov5 repository to this folder by issuing:
 ```
-git clone https://github.com/MahmudolHasan/Real-Time-Bangladeshi-License-Plate-Detection-And-Recognition
+git clone https://github.com/ultralytics/yolov5 .
 ```
-+ We have created  virtual environment and clone the repository.Now we need to prepare our data to train the model.We have already created a dataset of Bangladeshi license plate and it can be downloded from this link: [Bangla License Plate](https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate "https://www.kaggle.com/datasets/mahmudolhasantushar/bangla-license-plate").In all, there are 295 images with annotations in the dataset.And they are splitted into three parts;train(70%), valid(20%) and test(10%).Now to preapre the dataset for training we will use [roboflow](https://app.roboflow.com/).They has a guidline on how to [prepare](https://blog.roboflow.com/getting-started-with-roboflow/) a dataset for taining. We will use anaconda to train  ourt yolov5 model.We could also use colab or kaggle to train the model.
-
-+ We will install jupyter notebook to run allthe code.First we need to upgrade the pip to avoid any issue with dependencies by issuing:
+We need to delete the default detect.py that comes with yolov5 directory by using following command:
 ```
-pip3 install --upgrade pip
+del detect.py
 ```
-Afterward, install Jupyter Notebook by using:
+We will clone this repository for customized detect.py and trained weights.
 ```
-pip3 install jupyter
+git clone https://github.com/MahmudolHasan/Real-Time-Bangladeshi-License-Plate-Detection-And-Recognition .
 ```
-To run the notebook:
+We need to install and import python packages to run the detection by using:
 ```
-jupyter notebook
+pip install -r requirements.txt
 ```
-
-
-
+we also need to install easyocr and xlswriter by issuing:
+```
+pip install easyocr==1.4.0
+```
+```
+pip install xlsxwriter
+```
+```
+pip install uuid
+```
+Now run following command to real time detect license plate:
+```
+python detect.py --weights '/content/best (3).pt' --img 320 --conf 0.5 --source 0 --save-crop 
+```
+Note: use '--save-crop' to save the license plate information in an xls file.
+<img width="800" src='image/result.png '>
