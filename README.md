@@ -33,7 +33,7 @@ This project aims to develop a system which can detect **Bangladeshi license pla
 
 *****Cite the dataset:**
 
-**M. H. Tushar, M. T. Bhuiyan, M. S. Hossain, A. Tabassum and R. Khan, “Real Time Bangla License Plate Recognition with Deep Learning Techniques,” International Conference on Artificial Intelligence in Engineering and Technology (IICAIET), pp. 1-6, 2022.*****
+**M. H. Tusar, M. T. Bhuiya, M. S. Hossain, A. Tabassum and R. Khan, "Real Time Bangla License Plate Recognition with Deep Learning Techniques," 2022 IEEE International Conference on Artificial Intelligence in Engineering and Technology (IICAIET), 2022, pp. 1-6.*****
 
 ## Built With
 
